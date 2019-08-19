@@ -19,7 +19,7 @@ public class Mainpresenter {
 
     public Mainpresenter(Context context) {
         this.context = context;
-        retrofitService=RetrofitHelper.getRetrofit();
+        retrofitService = RetrofitHelper.getRetrofit();
 
 
     }
