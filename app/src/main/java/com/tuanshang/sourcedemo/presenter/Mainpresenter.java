@@ -25,6 +25,7 @@ public class Mainpresenter {
     }
 
     public void getCode(String type, String phone) {
+
         Call<BaseResponseBean> call = retrofitService.getCode(type, phone);
         call.enqueue(new Callback<BaseResponseBean>() {
             @Override
